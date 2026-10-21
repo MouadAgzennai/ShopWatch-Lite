@@ -1,4 +1,5 @@
 from src.contrat import Signal 
+
 def masquer_donnees(texte: str) -> str: 
     raise NotImplementedError 
   
