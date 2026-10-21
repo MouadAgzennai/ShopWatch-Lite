@@ -2,8 +2,7 @@ import unittest
   
 from src.extraction import lire_journal, masquer_donnees 
   
-LIGNE = "2026-11-27 17:02:11 paiement ERROR timeout passerelle apres 30s 
-card=4970123412341234" 
+LIGNE = "2026-11-27 17:02:11 paiement ERROR timeout passerelle apres 30s card=4970123412341234" 
   
   
 class TestExtraction(unittest.TestCase): 
